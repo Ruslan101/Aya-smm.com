@@ -420,7 +420,10 @@ footer {
 	text-transform: uppercase;
 	margin: 105px auto 55px;
 }
-@media (max-width: 900px)
+.group_item:last-of-type {
+	margin-right: 0px;
+}
+@media (max-width: 1030px)
 {
 	body {
 		width: 100%;
@@ -515,6 +518,12 @@ footer {
 	}
 	.logos > img {
 		margin: auto 20px;
+	}
+	.logos:first-of-type > img {
+		width: 16%;
+	}
+	.logos:last-of-type > img {
+		width: 13%;
 	}
 
 	img[alt="mackbook"] {
